@@ -13,14 +13,15 @@ import Foundation
 class InterfaceController: WKInterfaceController {
 
     @IBOutlet var resultLabel: WKInterfaceLabel!
+    @IBOutlet var diceImage: WKInterfaceImage!
     @IBOutlet var picker: WKInterfacePicker!
+    let variants = [4,6,8,10,12,20,100]
     var selectedItem = 20
-    let variants = [4,6,8,9,12,20,100]
     
     override func awakeWithContext(context: AnyObject?) {
         super.awakeWithContext(context)
         
-        
+//        let h = diceImage.
         
         var items = [WKPickerItem]()
         for i in variants {
@@ -54,5 +55,7 @@ class InterfaceController: WKInterfaceController {
 
     @IBAction func pickerUpdated(value: Int) {
         selectedItem = variants[value]
+        let image = UIImage(named: "\(selectedItem)") ?? UIImage(named: "20")
+        diceImage.setImage(image)
     }
 }
