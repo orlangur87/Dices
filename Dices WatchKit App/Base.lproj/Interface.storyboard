@@ -43,25 +43,6 @@
             </objects>
             <point key="canvasLocation" x="235" y="313.5"/>
         </scene>
-        <!--Glance Interface Controller-->
-        <scene sceneID="BOz-TT-tkC">
-            <objects>
-                <glanceController spacing="0.0" hidesWhenLoading="NO" bottomTemplateType="groupBody3Footer" id="0uZ-2p-rRc" customClass="GlanceController" customModule="Dices_WatchKit_App" customModuleProvider="target">
-                    <items>
-                        <group alignment="left" id="plI-Eq-oCc">
-                            <items>
-                                <imageView height="50.5" alignment="left" image="Dice" contentMode="scaleAspectFit" id="N35-qY-Wbb"/>
-                            </items>
-                        </group>
-                        <group alignment="left" id="uCw-4Q-Ouw"/>
-                        <label alignment="left" text="Test" id="kGl-qt-Itq"/>
-                        <label alignment="left" text="Footer Test" id="Pbp-6g-qtz"/>
-                    </items>
-                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
-                </glanceController>
-            </objects>
-            <point key="canvasLocation" x="235" y="542"/>
-        </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
             <objects>

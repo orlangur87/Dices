@@ -21,7 +21,6 @@
 		51BEC0A71C88494600DCAB6D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEC0A61C88494600DCAB6D /* InterfaceController.swift */; };
 		51BEC0A91C88494600DCAB6D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEC0A81C88494600DCAB6D /* ExtensionDelegate.swift */; };
 		51BEC0AB1C88494600DCAB6D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEC0AA1C88494600DCAB6D /* NotificationController.swift */; };
-		51BEC0AD1C88494600DCAB6D /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEC0AC1C88494600DCAB6D /* GlanceController.swift */; };
 		51BEC0AF1C88494600DCAB6D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51BEC0AE1C88494600DCAB6D /* ComplicationController.swift */; };
 		51BEC0B11C88494600DCAB6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51BEC0B01C88494600DCAB6D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -458,7 +457,6 @@
 				51BEC0A91C88494600DCAB6D /* ExtensionDelegate.swift in Sources */,
 				51BEC0AF1C88494600DCAB6D /* ComplicationController.swift in Sources */,
 				51BEC0A71C88494600DCAB6D /* InterfaceController.swift in Sources */,
-				51BEC0AD1C88494600DCAB6D /* GlanceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
