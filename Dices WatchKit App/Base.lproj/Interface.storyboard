@@ -10,7 +10,7 @@
             <objects>
                 <controller title="Dices" animationDuration="1" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Dices_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <picker height="80" alignment="center" style="stack" indicatorMode="shownWhileFocused" id="Rr8-sN-8Ie">
+                        <picker height="80" alignment="center" indicatorMode="shownWhileFocused" id="Rr8-sN-8Ie">
                             <connections>
                                 <action selector="pickerUpdated:" destination="AgC-eL-Hgc" id="VxH-8b-oUp"/>
                             </connections>

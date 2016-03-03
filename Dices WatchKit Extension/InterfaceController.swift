@@ -55,7 +55,8 @@ class InterfaceController: WKInterfaceController {
 
     @IBAction func pickerUpdated(value: Int) {
         selectedItem = variants[value]
-        let image = UIImage(named: "\(selectedItem)") ?? UIImage(named: "20")
+        
+        let image = UIImage(named: "\(selectedItem != 100 ? selectedItem : 10)") ?? UIImage(named: "20")
         diceImage.setImage(image)
     }
 }
